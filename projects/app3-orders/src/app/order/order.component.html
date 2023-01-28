@@ -1,5 +1,5 @@
 <ng-container  *ngIf="orderComplete; else showOrderForm">
-  <!-- <pmo-detail (onClickBackButton)="orderComplete = !orderComplete" ></pmo-detail> -->
+  <pmo-detail (onClickBackButton)="orderComplete = !orderComplete" ></pmo-detail>
 
 </ng-container>
 
@@ -8,14 +8,14 @@
     <div class="max-w-xl flex-col w-full p-8 bg-gray-100 dark:bg-gray-700 dark:text-white shadow-xl h-full">
       <h2 class="text-2xl pb-1.5 mb-5">Order from Restaurant Name</h2>
       <nav class="flex flex-col sm:flex-row dark:text-white border-b">
-        <!-- <button [ngClass]="[selectedTab === 0? 'border' : '', selectedTab === 0? 'text-gray-600' : '']" (click)="selectedTab = 0"
+        <button [ngClass]="[selectedTab === 0? 'border' : '', selectedTab === 0? 'text-gray-600' : '']" (click)="selectedTab = 0"
                  class="dark:text-white py-4 px-6 block hover:text-blue-500 rounded-t-md focus:outline-none font-medium">
           Lunch Menu
         </button>
         <button [ngClass]="[selectedTab === 1? 'border' : '', selectedTab === 1? 'text-gray-600' : '']" (click)="selectedTab = 1"
                 class="text-gray-600 dark:text-white py-4 px-6 block rounded-t-md hover:text-blue-500 focus:outline-none">
           Dinner Menu
-        </button> -->
+        </button>
       </nav>
 
       <div class="mt-4 border rounded-md"  *ngIf="selectedTab === 0">

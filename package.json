@@ -2,17 +2,17 @@
   "name": "module-federation-angular",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-  "start:app1": "ng serve",
-  "start:app2": "ng serve app2-restaurant",
-  "start:app3": "ng serve app3-orders",
-  "build:app1": "ng build",
-  "build:app2": "ng build app2-restaurant",
-  "build:app3": "ng build app3-orders",
-  "watch": "ng build --watch --configuration development",
-  "build:util-lib": "ng build utils",
-  "test": "ng test",
-  "start:all": "npm run start:app1 & npm run start:app2 & npm run start:app3"
+  "ng": "ng",
+   "start:app1": "ng serve --live-reload false --configuration development",
+    "start:app2": "ng serve  --live-reload false app2-restaurant --configuration development",
+    "start:app3": "ng serve --live-reload false app3-orders --configuration development",
+    "build:app1": "ng build",
+    "build:app2": "ng build app2-restaurant",
+    "build:app3": "ng build app3-orders",
+    "build:utils": "ng build utils",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "start:all": "npm run start:app1 & npm run start:app2 & npm run start:app3"
   },
   "private": true,
   "dependencies": {

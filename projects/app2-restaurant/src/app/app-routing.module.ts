@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FileType, MfeUtil } from 'projects/utils/src/public-api';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 
 export const mfe = new MfeUtil();
 
