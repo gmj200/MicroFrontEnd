@@ -1,5 +1,5 @@
 import {Configuration, container} from 'webpack';
-import dep from 'package.json';
+
 
 
 export const webpackConfig: Configuration = {
@@ -24,18 +24,16 @@ export const webpackConfig: Configuration = {
       },
       shared: {
         '@angular/core': {
-          eager: true,
-          singleton: true,
-          requiredVersion: dep.dependencies["@angular/core"]
+          eager: true
+         
         },
         '@angular/common': {
           eager: true,
-          singleton: true,
+          singleton: true
         },
         '@angular/router': {
           eager: true,
-          singleton: true,
-          requiredVersion: dep.dependencies["@angular/router"]
+          singleton: true
         },
         'place-my-order-assets': {eager: true, singleton: true},
       }

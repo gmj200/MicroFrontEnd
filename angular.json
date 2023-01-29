@@ -28,7 +28,6 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "less",
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -105,7 +104,6 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "inlineStyleLanguage": "less",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -140,7 +138,6 @@
             "main": "projects/app2-restaurant/src/main.ts",
             "polyfills": "projects/app2-restaurant/src/polyfills.ts",
             "tsConfig": "projects/app2-restaurant/tsconfig.app.json",
-            "inlineStyleLanguage": "less",
             "assets": [
               "projects/app2-restaurant/src/favicon.ico",
               "projects/app2-restaurant/src/assets",
@@ -220,7 +217,6 @@
             "polyfills": "projects/app2-restaurant/src/polyfills.ts",
             "tsConfig": "projects/app2-restaurant/tsconfig.spec.json",
             "karmaConfig": "projects/app2-restaurant/karma.conf.js",
-            "inlineStyleLanguage": "less",
             "assets": [
               "projects/app2-restaurant/src/favicon.ico",
               "projects/app2-restaurant/src/assets"
@@ -255,7 +251,6 @@
             "main": "projects/app3-orders/src/main.ts",
             "polyfills": "projects/app3-orders/src/polyfills.ts",
             "tsConfig": "projects/app3-orders/tsconfig.app.json",
-            "inlineStyleLanguage": "less",
             "assets": [
               "projects/app3-orders/src/favicon.ico",
               "projects/app3-orders/src/assets",
@@ -335,7 +330,6 @@
             "polyfills": "projects/app3-orders/src/polyfills.ts",
             "tsConfig": "projects/app3-orders/tsconfig.spec.json",
             "karmaConfig": "projects/app3-orders/karma.conf.js",
-            "inlineStyleLanguage": "less",
             "assets": [
               "projects/app3-orders/src/favicon.ico",
               "projects/app3-orders/src/assets"
